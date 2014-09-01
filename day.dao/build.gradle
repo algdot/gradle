@@ -1,0 +1,5 @@
+dependencies {
+    compile project (':day.domain')
+    compile 'org.springframework:spring-jdbc:3.2.10.RELEASE'
+    compile 'org.freemarker:freemarker:2.3.20'
+}

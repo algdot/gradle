@@ -1,0 +1,5 @@
+rootProject.name = 'blog'
+
+include "day.domain", "day.dao", "day.service", "day.web"
+
+

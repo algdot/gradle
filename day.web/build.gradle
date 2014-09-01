@@ -1,0 +1,16 @@
+apply plugin: 'war'
+apply plugin: "jetty"
+
+dependencies {
+    compile project (':day.dao'), project (':day.service')
+}
+
+jettyRun {
+    contextPath = '/'
+    reload = 'manual'
+    webDefaultXml = file('webdefault.xml')
+}
+
+httpPort = 8080
+stopPort = 8011
+stopKey = 'jetty6'

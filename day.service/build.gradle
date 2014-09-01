@@ -1,0 +1,3 @@
+dependencies {
+    compile project(':day.domain'), project(':day.dao')
+}
